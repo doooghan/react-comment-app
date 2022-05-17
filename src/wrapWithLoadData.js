@@ -7,7 +7,8 @@ const wrapperWithLoadData = (WrappedComponent, name) => {
       this.state = { data: null };
     }
 
-    componentDidMount() {
+    componentWillMount() {
+      // 这里必须是will，还没搞懂
       let data = localStorage.getItem(name);
       try {
         this.setState({ data: JSON.parse(data) });

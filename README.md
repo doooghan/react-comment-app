@@ -16,10 +16,10 @@ You may also see any lint errors in the console.
 
 ## react 实例
 
-### React 小书的评论列表 - comment
+### React 小书的评论列表 - comment_base
 
 ### React 小书的评论列表 - 高级组件改造版 - comment_hoc
 
-### React 哲学的搜索框 - search
+### React 哲学的搜索框 - search_bar
 
-### React 哲学与小书混合版 - search_state
+### React 哲学与小书混合版 - search_bar_state, TODO 有问题
