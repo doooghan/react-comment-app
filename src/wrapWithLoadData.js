@@ -6,18 +6,20 @@ const wrapperWithLoadData = (WrappedComponent, name) => {
       super();
       this.state = { data: null };
     }
-    componentWillMount() {
+
+    componentDidMount() {
       let data = localStorage.getItem(name);
       try {
         this.setState({ data: JSON.parse(data) });
-      } catch (error) {
+      } catch (e) {
         this.setState({ data });
       }
     }
+
     saveData(data) {
       try {
         localStorage.setItem(name, JSON.stringify(data));
-      } catch (error) {
+      } catch (e) {
         localStorage.setItem(name, `${data}`);
       }
     }
@@ -32,7 +34,6 @@ const wrapperWithLoadData = (WrappedComponent, name) => {
       );
     }
   }
-
   return LocalStorageActions;
 };
 

@@ -7,7 +7,7 @@ class Comment extends React.Component {
       timeString: "",
     };
   }
-  componentWillMount() {
+  componentDidMount() {
     this._updateTimeString();
     this._timer = setInterval(this._updateTimeString.bind(this), 5000);
   }
