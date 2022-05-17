@@ -22,4 +22,4 @@ You may also see any lint errors in the console.
 
 ### React 哲学的搜索框 - search_bar
 
-### React 哲学与小书混合版 - search_bar_state, TODO 有问题
+### React 哲学与小书混合版 - search_bar_state

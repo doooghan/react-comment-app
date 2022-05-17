@@ -13,13 +13,13 @@ class SeacrhBar extends React.Component {
 
   handleFilterTextChange(e) {
     this.setState({ filterText: e.target.value });
-    this.props.onFilterTextChange(e.target.value);
+    this.props.onProductsChange(e.target.value, this.state.inStockOnly);
   }
 
   handleInStockChange(e) {
     this.setState({ inStockOnly: e.target.checked });
     console.log(e.target.checked);
-    this.props.onInStockChange(e.target.checked);
+    this.props.onProductsChange(this.state.filterText, e.target.checked);
   }
   render() {
     return (
