@@ -1,25 +1,10 @@
-# Getting Started with Create React App
+# react 小书的例子评论 app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+使用 CRA 创建
 
 ## react 实例
 
-### React 小书的评论列表 - comment_base
-
-### React 小书的评论列表 - 高级组件改造版 - comment_hoc
-
-### React 哲学的搜索框 - search_bar
-
-### React 哲学与小书混合版 - search_bar_state
+1.  React 小书的评论列表 - comment_base
+2.  React 小书的评论列表 - 高级组件改造版 - comment_hoc
+3.  React 哲学的搜索框 - search_bar
+4.  React 哲学与小书混合版 - search_bar_state
